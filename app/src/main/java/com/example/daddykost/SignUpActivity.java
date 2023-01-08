@@ -53,4 +53,9 @@ public class SignUpActivity extends AppCompatActivity {
         daftar.putExtra("akun", akunFind);
         startActivity(daftar);
     }
+
+    public void moveLogin(View view){
+        Intent login = new Intent(SignUpActivity.this, LoginActivity.class);
+        startActivity(login);
+    }
 }

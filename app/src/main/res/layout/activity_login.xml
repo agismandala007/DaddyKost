@@ -1,9 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SignUpActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Login"
+        android:textSize="48sp"
+        android:textColor="@color/header"
+        android:layout_marginBottom="15dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/account"
+            android:layout_marginRight="8dp"/>
+
+        <EditText
+            android:id="@+id/log_email"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Email..."
+            android:inputType="textEmailAddress"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/lock"
+            android:layout_marginRight="8dp"/>
+
+        <EditText
+            android:id="@+id/log_pass"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Password..."
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_pass_salah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="#ff0000"/>
+
+
+    <Button
+        android:onClick="setLogin"
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/button"
+        android:layout_gravity="end"
+        android:layout_marginRight="60dp"/>
+
+
+</LinearLayout>

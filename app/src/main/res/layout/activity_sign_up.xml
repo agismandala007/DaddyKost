@@ -97,7 +97,8 @@
             android:clickable="true"
             android:text="Login"
             android:layout_marginLeft="5dp"
-            android:textColor="@color/header"/>
+            android:textColor="@color/header"
+            android:onClick="moveLogin"/>
 
     </LinearLayout>
 
