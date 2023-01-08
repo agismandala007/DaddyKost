@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">DaddyKost</string>
+    <string name="app_name">Daddy Kost</string>
+
+    <!--    header-->
+    <string name="header1">Aman</string>
+    <string name="header2">Murah</string>
+    <string name="header3">Nyaman</string>
+
+    <!--    deskripsi-->
+    <string name="desc1">Bersama dengan DaddyKost, Keamanan merupakan sesuatu yang sangat diutamakan, agar menghindari sebuah penipuan.</string>
+    <string name="desc2">Harga yang murah merupakan sesuatu yang sangat disukai oleh anak-anak kosan. Oleh karena itu, DaddyKost menawarkan kostan murah dengan kualitas terbaik.</string>
+    <string name="desc3">Bersama dengan DaddyKost, kenyamanan merupakan sesuatu yang kami perhatikan, agar penghuni kost merasa nyaman dan tidak perlu mencari kosan kembali.</string>
 </resources>
